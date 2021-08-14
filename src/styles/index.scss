@@ -1,13 +1,32 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body {
+    background: url("https://i.pinimg.com/originals/94/1a/43/941a430613c5bc37a39367016aed6e47.png") no-repeat fixed center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container{
+    margin:auto;
+    margin-top: 2rem;
+    text-align: center;
+}
 
-*/
+.title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #FB57B2;
+    font-weight: bold;
+
+}
+
+.square{
+    border: solid 2px #73E850;
+    background-color: rgba(64, 216, 230, 0.274);
+    color: #FB57B2;
+    font-size: 6rem;
+    font-weight: bolder;
+    width: 10rem;
+    height: 10rem;
+}
